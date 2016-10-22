@@ -1,0 +1,1221 @@
+Archive member included because of file (symbol)
+
+c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-exit.o)
+                              c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o (exit)
+c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+                              c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-exit.o) (_global_impure_ptr)
+c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-init.o)
+                              c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o (__libc_init_array)
+c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+                              c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o (memset)
+c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__call_atexit.o)
+                              c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-exit.o) (__call_exitprocs)
+c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-atexit.o)
+                              c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__call_atexit.o) (atexit)
+c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-fini.o)
+                              c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
+c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__atexit.o)
+                              c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-atexit.o) (__register_exitproc)
+c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+                              c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+occur_event         0x2               ./main.o
+rtuBuffer           0x16              ./main.o
+g_ui32Flags         0x4               ./port/portTimer.o
+flag                0x4               ./port/portIO.o
+length_replay       0x2               ./fsm_mestre/fsm_mestre.o
+fila                0x4               ./fsm_mestre/fsm_mestre.o
+filamestre          0x40              ./main.o
+buffer              0x50              ./main.o
+mb_PDU              0x4               ./fsm_mestre/fsm_mestre.o
+flagTimer           0x1               ./port/portTimer.o
+g_ui32SysClock      0x4               ./main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00000000         0x00100000         xr
+SRAM             0x20000000         0x00040000         xw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+LOAD c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+LOAD c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+LOAD ./main.o
+LOAD ./tm4c1294ncpdt_startup_ccs_gcc.o
+LOAD ./utils/queue.o
+LOAD ./utils/util.o
+LOAD ./rtu/mbRTU.o
+LOAD ./rtu/mbcrc.o
+LOAD ./port/portIO.o
+LOAD ./port/portTimer.o
+LOAD ./port/portUART.o
+LOAD ./fsm_mestre/fsm_mestre.o
+LOAD ./driverlib/cpu.o
+LOAD ./driverlib/gpio.o
+LOAD ./driverlib/interrupt.o
+LOAD ./driverlib/timer.o
+LOAD ./driverlib/uart.o
+                0x00000000                PROVIDE (_intvecs_base_address, 0x0)
+
+.intvecs        0x00000000      0x208
+ *(.intvecs)
+ .intvecs       0x00000000      0x208 ./tm4c1294ncpdt_startup_ccs_gcc.o
+                0x00000000                g_pfnVectors
+                0x20000000                PROVIDE (_vtable_base_address, 0x20000000)
+
+.vtable
+ *(.vtable)
+
+.text           0x00000208     0x3b60
+ CREATE_OBJECT_SYMBOLS
+ *(.text)
+ .text          0x00000208        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+ .text          0x00000208       0x54 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+ .text          0x0000025c       0x74 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+                0x0000025c                _start
+                0x0000025c                _mainCRTStartup
+ .text          0x000002d0        0x0 ./main.o
+ .text          0x000002d0        0x0 ./tm4c1294ncpdt_startup_ccs_gcc.o
+ .text          0x000002d0        0x0 ./utils/queue.o
+ .text          0x000002d0        0x0 ./utils/util.o
+ .text          0x000002d0        0x0 ./rtu/mbRTU.o
+ .text          0x000002d0        0x0 ./rtu/mbcrc.o
+ .text          0x000002d0        0x0 ./port/portIO.o
+ .text          0x000002d0        0x0 ./port/portTimer.o
+ .text          0x000002d0        0x0 ./port/portUART.o
+ .text          0x000002d0        0x0 ./fsm_mestre/fsm_mestre.o
+ .text          0x000002d0        0x0 ./driverlib/cpu.o
+ .text          0x000002d0        0x0 ./driverlib/gpio.o
+ .text          0x000002d0        0x0 ./driverlib/interrupt.o
+ .text          0x000002d0        0x0 ./driverlib/timer.o
+ .text          0x000002d0        0x0 ./driverlib/uart.o
+ .text          0x000002d0        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-exit.o)
+ .text          0x000002d0        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+ .text          0x000002d0        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-init.o)
+ .text          0x000002d0        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+ .text          0x000002d0        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__call_atexit.o)
+ .text          0x000002d0        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-atexit.o)
+ .text          0x000002d0        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-fini.o)
+ .text          0x000002d0        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__atexit.o)
+ .text          0x000002d0        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+ .text          0x000002d0        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
+ .text          0x000002d0        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+ *(.text.*)
+ .text.main     0x000002d0      0x294 ./main.o
+                0x000002d0                main
+ .text.actionEventA
+                0x00000564       0x2c ./main.o
+                0x00000564                actionEventA
+ .text.actionEventB
+                0x00000590       0x2c ./main.o
+                0x00000590                actionEventB
+ .text.actionEventC
+                0x000005bc       0x2c ./main.o
+                0x000005bc                actionEventC
+ .text.actionEventD
+                0x000005e8       0x2c ./main.o
+                0x000005e8                actionEventD
+ .text.ResetISR
+                0x00000614       0x6c ./tm4c1294ncpdt_startup_ccs_gcc.o
+                0x00000614                ResetISR
+ .text.NmiSR    0x00000680        0x8 ./tm4c1294ncpdt_startup_ccs_gcc.o
+ .text.FaultISR
+                0x00000688        0x8 ./tm4c1294ncpdt_startup_ccs_gcc.o
+ .text.IntDefaultHandler
+                0x00000690        0x8 ./tm4c1294ncpdt_startup_ccs_gcc.o
+ .text.init_queue
+                0x00000698       0x20 ./utils/queue.o
+                0x00000698                init_queue
+ .text.insert_queue
+                0x000006b8       0x4c ./utils/queue.o
+                0x000006b8                insert_queue
+ .text.remove_queue
+                0x00000704       0x78 ./utils/queue.o
+                0x00000704                remove_queue
+ .text.existRefinaments
+                0x0000077c       0xd0 ./utils/util.o
+                0x0000077c                existRefinaments
+ .text.montar_data_PDU
+                0x0000084c       0xdc ./rtu/mbRTU.o
+                0x0000084c                montar_data_PDU
+ .text.mb_writeMultipleRegisters
+                0x00000928       0xec ./rtu/mbRTU.o
+                0x00000928                mb_writeMultipleRegisters
+ .text.mb_readHoldingRegisters
+                0x00000a14       0x80 ./rtu/mbRTU.o
+                0x00000a14                mb_readHoldingRegisters
+ .text.mb_processReplayReadHoldingRegisters
+                0x00000a94       0x40 ./rtu/mbRTU.o
+                0x00000a94                mb_processReplayReadHoldingRegisters
+ .text.usMBCRC16
+                0x00000ad4       0x6c ./rtu/mbcrc.o
+                0x00000ad4                usMBCRC16
+ .text.configIO
+                0x00000b40       0xac ./port/portIO.o
+                0x00000b40                configIO
+ .text.GPIOKIntHandler
+                0x00000bec       0x4c ./port/portIO.o
+                0x00000bec                GPIOKIntHandler
+ .text.verficarPorta
+                0x00000c38      0x16c ./port/portIO.o
+                0x00000c38                verficarPorta
+ .text.TIMERAConfigure
+                0x00000da4      0x154 ./port/portTimer.o
+                0x00000da4                TIMERAConfigure
+ .text.TIMEREnableTimeOut
+                0x00000ef8       0x64 ./port/portTimer.o
+                0x00000ef8                TIMEREnableTimeOut
+ .text.TIMERDisableTimeOut
+                0x00000f5c       0x3c ./port/portTimer.o
+                0x00000f5c                TIMERDisableTimeOut
+ .text.TIMEREnableTurnaround
+                0x00000f98       0x68 ./port/portTimer.o
+                0x00000f98                TIMEREnableTurnaround
+ .text.TIMERDisableTurnaround
+                0x00001000       0x3c ./port/portTimer.o
+                0x00001000                TIMERDisableTurnaround
+ .text.TIMEREnableDebouncer
+                0x0000103c       0x58 ./port/portTimer.o
+                0x0000103c                TIMEREnableDebouncer
+ .text.TIMERDisableDebouncer
+                0x00001094       0x3c ./port/portTimer.o
+                0x00001094                TIMERDisableDebouncer
+ .text.Timer0IntHandler
+                0x000010d0       0x90 ./port/portTimer.o
+                0x000010d0                Timer0IntHandler
+ .text.Timer1IntHandler
+                0x00001160       0x98 ./port/portTimer.o
+                0x00001160                Timer1IntHandler
+ .text.Timer2IntHandler
+                0x000011f8       0x3c ./port/portTimer.o
+                0x000011f8                Timer2IntHandler
+ .text.UARTConfigure
+                0x00001234       0xe0 ./port/portUART.o
+                0x00001234                UARTConfigure
+ .text.UARTIntHandler
+                0x00001314       0xc4 ./port/portUART.o
+                0x00001314                UARTIntHandler
+ .text.UARTSendString
+                0x000013d8       0x74 ./port/portUART.o
+                0x000013d8                UARTSendString
+ .text.UARTPutChar
+                0x0000144c       0x3c ./port/portUART.o
+                0x0000144c                UARTPutChar
+ .text.init_master
+                0x00001488       0x38 ./fsm_mestre/fsm_mestre.o
+                0x00001488                init_master
+ .text.start_communication
+                0x000014c0       0xb8 ./fsm_mestre/fsm_mestre.o
+                0x000014c0                start_communication
+ .text.CPUcpsid
+                0x00001578       0x10 ./driverlib/cpu.o
+                0x00001578                CPUcpsid
+ .text.CPUprimask
+                0x00001588        0xc ./driverlib/cpu.o
+                0x00001588                CPUprimask
+ .text.CPUcpsie
+                0x00001594       0x10 ./driverlib/cpu.o
+                0x00001594                CPUcpsie
+ .text.CPUwfi   0x000015a4        0x4 ./driverlib/cpu.o
+                0x000015a4                CPUwfi
+ .text.CPUbasepriSet
+                0x000015a8        0x8 ./driverlib/cpu.o
+                0x000015a8                CPUbasepriSet
+ .text.CPUbasepriGet
+                0x000015b0        0xc ./driverlib/cpu.o
+                0x000015b0                CPUbasepriGet
+ .text._GPIOIntNumberGet
+                0x000015bc       0x78 ./driverlib/gpio.o
+ .text.GPIODirModeSet
+                0x00001634       0x78 ./driverlib/gpio.o
+                0x00001634                GPIODirModeSet
+ .text.GPIODirModeGet
+                0x000016ac       0x5c ./driverlib/gpio.o
+                0x000016ac                GPIODirModeGet
+ .text.GPIOIntTypeSet
+                0x00001708       0xd8 ./driverlib/gpio.o
+                0x00001708                GPIOIntTypeSet
+ .text.GPIOIntTypeGet
+                0x000017e0       0x98 ./driverlib/gpio.o
+                0x000017e0                GPIOIntTypeGet
+ .text.GPIOPadConfigSet
+                0x00001878      0x2b8 ./driverlib/gpio.o
+                0x00001878                GPIOPadConfigSet
+ .text.GPIOPadConfigGet
+                0x00001b30      0x170 ./driverlib/gpio.o
+                0x00001b30                GPIOPadConfigGet
+ .text.GPIOIntEnable
+                0x00001ca0       0x28 ./driverlib/gpio.o
+                0x00001ca0                GPIOIntEnable
+ .text.GPIOIntDisable
+                0x00001cc8       0x2c ./driverlib/gpio.o
+                0x00001cc8                GPIOIntDisable
+ .text.GPIOIntStatus
+                0x00001cf4       0x30 ./driverlib/gpio.o
+                0x00001cf4                GPIOIntStatus
+ .text.GPIOIntClear
+                0x00001d24       0x20 ./driverlib/gpio.o
+                0x00001d24                GPIOIntClear
+ .text.GPIOIntRegister
+                0x00001d44       0x28 ./driverlib/gpio.o
+                0x00001d44                GPIOIntRegister
+ .text.GPIOIntUnregister
+                0x00001d6c       0x24 ./driverlib/gpio.o
+                0x00001d6c                GPIOIntUnregister
+ .text.GPIOPinRead
+                0x00001d90       0x24 ./driverlib/gpio.o
+                0x00001d90                GPIOPinRead
+ .text.GPIOPinWrite
+                0x00001db4       0x28 ./driverlib/gpio.o
+                0x00001db4                GPIOPinWrite
+ .text.GPIOPinTypeADC
+                0x00001ddc       0x2c ./driverlib/gpio.o
+                0x00001ddc                GPIOPinTypeADC
+ .text.GPIOPinTypeCAN
+                0x00001e08       0x2c ./driverlib/gpio.o
+                0x00001e08                GPIOPinTypeCAN
+ .text.GPIOPinTypeComparator
+                0x00001e34       0x2c ./driverlib/gpio.o
+                0x00001e34                GPIOPinTypeComparator
+ .text.GPIOPinTypeComparatorOutput
+                0x00001e60       0x2c ./driverlib/gpio.o
+                0x00001e60                GPIOPinTypeComparatorOutput
+ .text.GPIOPinTypeEPI
+                0x00001e8c       0x2c ./driverlib/gpio.o
+                0x00001e8c                GPIOPinTypeEPI
+ .text.GPIOPinTypeEthernetLED
+                0x00001eb8       0x2c ./driverlib/gpio.o
+                0x00001eb8                GPIOPinTypeEthernetLED
+ .text.GPIOPinTypeEthernetMII
+                0x00001ee4       0x2c ./driverlib/gpio.o
+                0x00001ee4                GPIOPinTypeEthernetMII
+ .text.GPIOPinTypeGPIOInput
+                0x00001f10       0x2c ./driverlib/gpio.o
+                0x00001f10                GPIOPinTypeGPIOInput
+ .text.GPIOPinTypeGPIOOutput
+                0x00001f3c       0x2c ./driverlib/gpio.o
+                0x00001f3c                GPIOPinTypeGPIOOutput
+ .text.GPIOPinTypeGPIOOutputOD
+                0x00001f68       0x2c ./driverlib/gpio.o
+                0x00001f68                GPIOPinTypeGPIOOutputOD
+ .text.GPIOPinTypeI2C
+                0x00001f94       0x2c ./driverlib/gpio.o
+                0x00001f94                GPIOPinTypeI2C
+ .text.GPIOPinTypeI2CSCL
+                0x00001fc0       0x2c ./driverlib/gpio.o
+                0x00001fc0                GPIOPinTypeI2CSCL
+ .text.GPIOPinTypeLCD
+                0x00001fec       0x2c ./driverlib/gpio.o
+                0x00001fec                GPIOPinTypeLCD
+ .text.GPIOPinTypeLPC
+                0x00002018       0x2c ./driverlib/gpio.o
+                0x00002018                GPIOPinTypeLPC
+ .text.GPIOPinTypePECIRx
+                0x00002044       0x2c ./driverlib/gpio.o
+                0x00002044                GPIOPinTypePECIRx
+ .text.GPIOPinTypePECITx
+                0x00002070       0x2c ./driverlib/gpio.o
+                0x00002070                GPIOPinTypePECITx
+ .text.GPIOPinTypePWM
+                0x0000209c       0x2c ./driverlib/gpio.o
+                0x0000209c                GPIOPinTypePWM
+ .text.GPIOPinTypeQEI
+                0x000020c8       0x2c ./driverlib/gpio.o
+                0x000020c8                GPIOPinTypeQEI
+ .text.GPIOPinTypeSSI
+                0x000020f4       0x2c ./driverlib/gpio.o
+                0x000020f4                GPIOPinTypeSSI
+ .text.GPIOPinTypeTimer
+                0x00002120       0x2c ./driverlib/gpio.o
+                0x00002120                GPIOPinTypeTimer
+ .text.GPIOPinTypeUART
+                0x0000214c       0x2c ./driverlib/gpio.o
+                0x0000214c                GPIOPinTypeUART
+ .text.GPIOPinTypeUSBAnalog
+                0x00002178       0x2c ./driverlib/gpio.o
+                0x00002178                GPIOPinTypeUSBAnalog
+ .text.GPIOPinTypeUSBDigital
+                0x000021a4       0x2c ./driverlib/gpio.o
+                0x000021a4                GPIOPinTypeUSBDigital
+ .text.GPIOPinTypeWakeHigh
+                0x000021d0       0x30 ./driverlib/gpio.o
+                0x000021d0                GPIOPinTypeWakeHigh
+ .text.GPIOPinTypeWakeLow
+                0x00002200       0x30 ./driverlib/gpio.o
+                0x00002200                GPIOPinTypeWakeLow
+ .text.GPIOPinTypeKBRow
+                0x00002230       0x2c ./driverlib/gpio.o
+                0x00002230                GPIOPinTypeKBRow
+ .text.GPIOPinTypeKBColumn
+                0x0000225c       0x2c ./driverlib/gpio.o
+                0x0000225c                GPIOPinTypeKBColumn
+ .text.GPIOPinTypeLEDSeq
+                0x00002288       0x2c ./driverlib/gpio.o
+                0x00002288                GPIOPinTypeLEDSeq
+ .text.GPIOPinTypeCIR
+                0x000022b4       0x2c ./driverlib/gpio.o
+                0x000022b4                GPIOPinTypeCIR
+ .text.GPIOPinWakeStatus
+                0x000022e0       0x1c ./driverlib/gpio.o
+                0x000022e0                GPIOPinWakeStatus
+ .text.GPIOPinConfigure
+                0x000022fc       0x84 ./driverlib/gpio.o
+                0x000022fc                GPIOPinConfigure
+ .text.GPIODMATriggerEnable
+                0x00002380       0x2c ./driverlib/gpio.o
+                0x00002380                GPIODMATriggerEnable
+ .text.GPIODMATriggerDisable
+                0x000023ac       0x2c ./driverlib/gpio.o
+                0x000023ac                GPIODMATriggerDisable
+ .text.GPIOADCTriggerEnable
+                0x000023d8       0x2c ./driverlib/gpio.o
+                0x000023d8                GPIOADCTriggerEnable
+ .text.GPIOADCTriggerDisable
+                0x00002404       0x2c ./driverlib/gpio.o
+                0x00002404                GPIOADCTriggerDisable
+ .text._IntDefaultHandler
+                0x00002430        0x8 ./driverlib/interrupt.o
+ .text.IntMasterEnable
+                0x00002438       0x18 ./driverlib/interrupt.o
+                0x00002438                IntMasterEnable
+ .text.IntMasterDisable
+                0x00002450       0x18 ./driverlib/interrupt.o
+                0x00002450                IntMasterDisable
+ .text.IntRegister
+                0x00002468       0x64 ./driverlib/interrupt.o
+                0x00002468                IntRegister
+ .text.IntUnregister
+                0x000024cc       0x24 ./driverlib/interrupt.o
+                0x000024cc                IntUnregister
+ .text.IntPriorityGroupingSet
+                0x000024f0       0x30 ./driverlib/interrupt.o
+                0x000024f0                IntPriorityGroupingSet
+ .text.IntPriorityGroupingGet
+                0x00002520       0x48 ./driverlib/interrupt.o
+                0x00002520                IntPriorityGroupingGet
+ .text.IntPrioritySet
+                0x00002568       0x60 ./driverlib/interrupt.o
+                0x00002568                IntPrioritySet
+ .text.IntPriorityGet
+                0x000025c8       0x34 ./driverlib/interrupt.o
+                0x000025c8                IntPriorityGet
+ .text.IntEnable
+                0x000025fc       0x90 ./driverlib/interrupt.o
+                0x000025fc                IntEnable
+ .text.IntDisable
+                0x0000268c       0x90 ./driverlib/interrupt.o
+                0x0000268c                IntDisable
+ .text.IntIsEnabled
+                0x0000271c       0x94 ./driverlib/interrupt.o
+                0x0000271c                IntIsEnabled
+ .text.IntPendSet
+                0x000027b0       0x78 ./driverlib/interrupt.o
+                0x000027b0                IntPendSet
+ .text.IntPendClear
+                0x00002828       0x64 ./driverlib/interrupt.o
+                0x00002828                IntPendClear
+ .text.IntPriorityMaskSet
+                0x0000288c       0x14 ./driverlib/interrupt.o
+                0x0000288c                IntPriorityMaskSet
+ .text.IntPriorityMaskGet
+                0x000028a0       0x10 ./driverlib/interrupt.o
+                0x000028a0                IntPriorityMaskGet
+ .text.IntTrigger
+                0x000028b0       0x20 ./driverlib/interrupt.o
+                0x000028b0                IntTrigger
+ .text._TimerIntNumberGet
+                0x000028d0       0x8c ./driverlib/timer.o
+ .text.TimerEnable
+                0x0000295c       0x2c ./driverlib/timer.o
+                0x0000295c                TimerEnable
+ .text.TimerDisable
+                0x00002988       0x30 ./driverlib/timer.o
+                0x00002988                TimerDisable
+ .text.TimerConfigure
+                0x000029b8       0xa0 ./driverlib/timer.o
+                0x000029b8                TimerConfigure
+ .text.TimerControlLevel
+                0x00002a58       0x48 ./driverlib/timer.o
+                0x00002a58                TimerControlLevel
+ .text.TimerControlTrigger
+                0x00002aa0       0x98 ./driverlib/timer.o
+                0x00002aa0                TimerControlTrigger
+ .text.TimerControlEvent
+                0x00002b38       0x3c ./driverlib/timer.o
+                0x00002b38                TimerControlEvent
+ .text.TimerControlStall
+                0x00002b74       0x48 ./driverlib/timer.o
+                0x00002b74                TimerControlStall
+ .text.TimerControlWaitOnTrigger
+                0x00002bbc       0x7c ./driverlib/timer.o
+                0x00002bbc                TimerControlWaitOnTrigger
+ .text.TimerRTCEnable
+                0x00002c38       0x24 ./driverlib/timer.o
+                0x00002c38                TimerRTCEnable
+ .text.TimerRTCDisable
+                0x00002c5c       0x24 ./driverlib/timer.o
+                0x00002c5c                TimerRTCDisable
+ .text.TimerClockSourceSet
+                0x00002c80       0x20 ./driverlib/timer.o
+                0x00002c80                TimerClockSourceSet
+ .text.TimerClockSourceGet
+                0x00002ca0       0x1c ./driverlib/timer.o
+                0x00002ca0                TimerClockSourceGet
+ .text.TimerPrescaleSet
+                0x00002cbc       0x38 ./driverlib/timer.o
+                0x00002cbc                TimerPrescaleSet
+ .text.TimerPrescaleGet
+                0x00002cf4       0x2c ./driverlib/timer.o
+                0x00002cf4                TimerPrescaleGet
+ .text.TimerPrescaleMatchSet
+                0x00002d20       0x38 ./driverlib/timer.o
+                0x00002d20                TimerPrescaleMatchSet
+ .text.TimerPrescaleMatchGet
+                0x00002d58       0x2c ./driverlib/timer.o
+                0x00002d58                TimerPrescaleMatchGet
+ .text.TimerLoadSet
+                0x00002d84       0x38 ./driverlib/timer.o
+                0x00002d84                TimerLoadSet
+ .text.TimerLoadGet
+                0x00002dbc       0x2c ./driverlib/timer.o
+                0x00002dbc                TimerLoadGet
+ .text.TimerLoadSet64
+                0x00002de8       0x30 ./driverlib/timer.o
+                0x00002de8                TimerLoadSet64
+ .text.TimerLoadGet64
+                0x00002e18       0x54 ./driverlib/timer.o
+                0x00002e18                TimerLoadGet64
+ .text.TimerValueGet
+                0x00002e6c       0x2c ./driverlib/timer.o
+                0x00002e6c                TimerValueGet
+ .text.TimerValueGet64
+                0x00002e98       0x54 ./driverlib/timer.o
+                0x00002e98                TimerValueGet64
+ .text.TimerMatchSet
+                0x00002eec       0x38 ./driverlib/timer.o
+                0x00002eec                TimerMatchSet
+ .text.TimerMatchGet
+                0x00002f24       0x2c ./driverlib/timer.o
+                0x00002f24                TimerMatchGet
+ .text.TimerMatchSet64
+                0x00002f50       0x30 ./driverlib/timer.o
+                0x00002f50                TimerMatchSet64
+ .text.TimerMatchGet64
+                0x00002f80       0x54 ./driverlib/timer.o
+                0x00002f80                TimerMatchGet64
+ .text.TimerIntRegister
+                0x00002fd4       0x2c ./driverlib/timer.o
+                0x00002fd4                TimerIntRegister
+ .text.TimerIntUnregister
+                0x00003000       0x28 ./driverlib/timer.o
+                0x00003000                TimerIntUnregister
+ .text.TimerIntEnable
+                0x00003028       0x24 ./driverlib/timer.o
+                0x00003028                TimerIntEnable
+ .text.TimerIntDisable
+                0x0000304c       0x28 ./driverlib/timer.o
+                0x0000304c                TimerIntDisable
+ .text.TimerIntStatus
+                0x00003074       0x2c ./driverlib/timer.o
+                0x00003074                TimerIntStatus
+ .text.TimerIntClear
+                0x000030a0       0x1c ./driverlib/timer.o
+                0x000030a0                TimerIntClear
+ .text.TimerSynchronize
+                0x000030bc       0x1c ./driverlib/timer.o
+                0x000030bc                TimerSynchronize
+ .text.TimerADCEventSet
+                0x000030d8       0x1c ./driverlib/timer.o
+                0x000030d8                TimerADCEventSet
+ .text.TimerADCEventGet
+                0x000030f4       0x1c ./driverlib/timer.o
+                0x000030f4                TimerADCEventGet
+ .text.TimerDMAEventSet
+                0x00003110       0x1c ./driverlib/timer.o
+                0x00003110                TimerDMAEventSet
+ .text.TimerDMAEventGet
+                0x0000312c       0x1c ./driverlib/timer.o
+                0x0000312c                TimerDMAEventGet
+ .text.TimerUpdateMode
+                0x00003148       0x64 ./driverlib/timer.o
+                0x00003148                TimerUpdateMode
+ .text._UARTIntNumberGet
+                0x000031ac       0x78 ./driverlib/uart.o
+ .text.UARTParityModeSet
+                0x00003224       0x28 ./driverlib/uart.o
+                0x00003224                UARTParityModeSet
+ .text.UARTParityModeGet
+                0x0000324c       0x20 ./driverlib/uart.o
+                0x0000324c                UARTParityModeGet
+ .text.UARTFIFOLevelSet
+                0x0000326c       0x24 ./driverlib/uart.o
+                0x0000326c                UARTFIFOLevelSet
+ .text.UARTFIFOLevelGet
+                0x00003290       0x34 ./driverlib/uart.o
+                0x00003290                UARTFIFOLevelGet
+ .text.UARTConfigSetExpClk
+                0x000032c4       0x88 ./driverlib/uart.o
+                0x000032c4                UARTConfigSetExpClk
+ .text.UARTConfigGetExpClk
+                0x0000334c       0x64 ./driverlib/uart.o
+                0x0000334c                UARTConfigGetExpClk
+ .text.UARTEnable
+                0x000033b0       0x38 ./driverlib/uart.o
+                0x000033b0                UARTEnable
+ .text.UARTDisable
+                0x000033e8       0x48 ./driverlib/uart.o
+                0x000033e8                UARTDisable
+ .text.UARTFIFOEnable
+                0x00003430       0x24 ./driverlib/uart.o
+                0x00003430                UARTFIFOEnable
+ .text.UARTFIFODisable
+                0x00003454       0x24 ./driverlib/uart.o
+                0x00003454                UARTFIFODisable
+ .text.UARTEnableSIR
+                0x00003478       0x40 ./driverlib/uart.o
+                0x00003478                UARTEnableSIR
+ .text.UARTDisableSIR
+                0x000034b8       0x24 ./driverlib/uart.o
+                0x000034b8                UARTDisableSIR
+ .text.UARTSmartCardEnable
+                0x000034dc       0x44 ./driverlib/uart.o
+                0x000034dc                UARTSmartCardEnable
+ .text.UARTSmartCardDisable
+                0x00003520       0x24 ./driverlib/uart.o
+                0x00003520                UARTSmartCardDisable
+ .text.UARTModemControlSet
+                0x00003544       0x30 ./driverlib/uart.o
+                0x00003544                UARTModemControlSet
+ .text.UARTModemControlClear
+                0x00003574       0x34 ./driverlib/uart.o
+                0x00003574                UARTModemControlClear
+ .text.UARTModemControlGet
+                0x000035a8       0x20 ./driverlib/uart.o
+                0x000035a8                UARTModemControlGet
+ .text.UARTModemStatusGet
+                0x000035c8       0x20 ./driverlib/uart.o
+                0x000035c8                UARTModemStatusGet
+ .text.UARTFlowControlSet
+                0x000035e8       0x28 ./driverlib/uart.o
+                0x000035e8                UARTFlowControlSet
+ .text.UARTFlowControlGet
+                0x00003610       0x20 ./driverlib/uart.o
+                0x00003610                UARTFlowControlGet
+ .text.UARTTxIntModeSet
+                0x00003630       0x28 ./driverlib/uart.o
+                0x00003630                UARTTxIntModeSet
+ .text.UARTTxIntModeGet
+                0x00003658       0x20 ./driverlib/uart.o
+                0x00003658                UARTTxIntModeGet
+ .text.UARTCharsAvail
+                0x00003678       0x28 ./driverlib/uart.o
+                0x00003678                UARTCharsAvail
+ .text.UARTSpaceAvail
+                0x000036a0       0x28 ./driverlib/uart.o
+                0x000036a0                UARTSpaceAvail
+ .text.UARTCharGetNonBlocking
+                0x000036c8       0x2c ./driverlib/uart.o
+                0x000036c8                UARTCharGetNonBlocking
+ .text.UARTCharGet
+                0x000036f4       0x28 ./driverlib/uart.o
+                0x000036f4                UARTCharGet
+ .text.UARTCharPutNonBlocking
+                0x0000371c       0x34 ./driverlib/uart.o
+                0x0000371c                UARTCharPutNonBlocking
+ .text.UARTCharPut
+                0x00003750       0x2c ./driverlib/uart.o
+                0x00003750                UARTCharPut
+ .text.UARTBreakCtl
+                0x0000377c       0x3c ./driverlib/uart.o
+                0x0000377c                UARTBreakCtl
+ .text.UARTBusy
+                0x000037b8       0x28 ./driverlib/uart.o
+                0x000037b8                UARTBusy
+ .text.UARTIntRegister
+                0x000037e0       0x28 ./driverlib/uart.o
+                0x000037e0                UARTIntRegister
+ .text.UARTIntUnregister
+                0x00003808       0x24 ./driverlib/uart.o
+                0x00003808                UARTIntUnregister
+ .text.UARTIntEnable
+                0x0000382c       0x24 ./driverlib/uart.o
+                0x0000382c                UARTIntEnable
+ .text.UARTIntDisable
+                0x00003850       0x28 ./driverlib/uart.o
+                0x00003850                UARTIntDisable
+ .text.UARTIntStatus
+                0x00003878       0x2c ./driverlib/uart.o
+                0x00003878                UARTIntStatus
+ .text.UARTIntClear
+                0x000038a4       0x1c ./driverlib/uart.o
+                0x000038a4                UARTIntClear
+ .text.UARTDMAEnable
+                0x000038c0       0x24 ./driverlib/uart.o
+                0x000038c0                UARTDMAEnable
+ .text.UARTDMADisable
+                0x000038e4       0x28 ./driverlib/uart.o
+                0x000038e4                UARTDMADisable
+ .text.UARTRxErrorGet
+                0x0000390c       0x20 ./driverlib/uart.o
+                0x0000390c                UARTRxErrorGet
+ .text.UARTRxErrorClear
+                0x0000392c       0x1c ./driverlib/uart.o
+                0x0000392c                UARTRxErrorClear
+ .text.UARTClockSourceSet
+                0x00003948       0x20 ./driverlib/uart.o
+                0x00003948                UARTClockSourceSet
+ .text.UARTClockSourceGet
+                0x00003968       0x1c ./driverlib/uart.o
+                0x00003968                UARTClockSourceGet
+ .text.UART9BitEnable
+                0x00003984       0x24 ./driverlib/uart.o
+                0x00003984                UART9BitEnable
+ .text.UART9BitDisable
+                0x000039a8       0x24 ./driverlib/uart.o
+                0x000039a8                UART9BitDisable
+ .text.UART9BitAddrSet
+                0x000039cc       0x2c ./driverlib/uart.o
+                0x000039cc                UART9BitAddrSet
+ .text.UART9BitAddrSend
+                0x000039f8       0x5c ./driverlib/uart.o
+                0x000039f8                UART9BitAddrSend
+ .text.exit     0x00003a54       0x20 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-exit.o)
+                0x00003a54                exit
+ .text.__libc_init_array
+                0x00003a74       0x50 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-init.o)
+                0x00003a74                __libc_init_array
+ .text.memset   0x00003ac4       0x94 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+                0x00003ac4                memset
+ .text.startup.register_fini
+                0x00003b58       0x14 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x00003b6c       0xf0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__call_atexit.o)
+                0x00003b6c                __call_exitprocs
+ .text.atexit   0x00003c5c        0xc c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-atexit.o)
+                0x00003c5c                atexit
+ .text.__libc_fini_array
+                0x00003c68       0x30 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-fini.o)
+                0x00003c68                __libc_fini_array
+ .text.__register_exitproc
+                0x00003c98       0xa8 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__atexit.o)
+                0x00003c98                __register_exitproc
+ .text._exit    0x00003d40        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+                0x00003d40                _exit
+                0x00003d44                . = ALIGN (0x4)
+ *(.ctors)
+                0x00003d44                . = ALIGN (0x4)
+ *(.dtors)
+                0x00003d44                . = ALIGN (0x4)
+                0x00003d44                __init_array_start = .
+ *(.init_array*)
+ .init_array    0x00003d44        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+ .init_array.00000
+                0x00003d48        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__call_atexit.o)
+                0x00003d4c                __init_array_end = .
+ *(.init)
+ .init          0x00003d4c        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+                0x00003d4c                _init
+ .init          0x00003d50        0x8 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+ *(.fini*)
+ .fini          0x00003d58        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+                0x00003d58                _fini
+ .fini_array    0x00003d5c        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+ .fini          0x00003d60        0x8 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+                0x00003d68                PROVIDE (__etext, .)
+                0x00003d68                PROVIDE (_etext, .)
+                0x00003d68                PROVIDE (etext, .)
+
+.glue_7         0x00003d68        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00003d68        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00003d68        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00003d68        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00003d68        0x0
+ .iplt          0x00000000        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+
+.rodata         0x00003d68      0x890
+ *(.rodata)
+ *(.rodata*)
+ .rodata.event  0x00003d68       0x88 ./main.o
+                0x00003d68                event
+ .rodata.in_state
+                0x00003df0      0x10c ./main.o
+                0x00003df0                in_state
+ .rodata.rfirst
+                0x00003efc       0x18 ./main.o
+                0x00003efc                rfirst
+ .rodata.rnext  0x00003f14       0x88 ./main.o
+                0x00003f14                rnext
+ .rodata.aucCRCHi
+                0x00003f9c      0x100 ./rtu/mbcrc.o
+ .rodata.aucCRCLo
+                0x0000409c      0x100 ./rtu/mbcrc.o
+ .rodata.g_ppui32GPIOIntMapBlizzard
+                0x0000419c       0xc0 ./driverlib/gpio.o
+ .rodata.g_ui32GPIOIntMapBlizzardRows
+                0x0000425c        0x4 ./driverlib/gpio.o
+ .rodata.g_ppui32GPIOIntMapSnowflake
+                0x00004260       0xc0 ./driverlib/gpio.o
+ .rodata.g_ui32GPIOIntMapSnowflakeRows
+                0x00004320        0x4 ./driverlib/gpio.o
+ .rodata.g_pui32GPIOBaseAddrs
+                0x00004324       0x90 ./driverlib/gpio.o
+ .rodata.g_pui32Priority
+                0x000043b4       0x20 ./driverlib/interrupt.o
+ .rodata.g_pui32Regs
+                0x000043d4       0x9c ./driverlib/interrupt.o
+ .rodata.g_pui32EnRegs
+                0x00004470       0x14 ./driverlib/interrupt.o
+ .rodata.g_pui32Dii16Regs
+                0x00004484       0x14 ./driverlib/interrupt.o
+ .rodata.g_pui32PendRegs
+                0x00004498       0x14 ./driverlib/interrupt.o
+ .rodata.g_pui32UnpendRegs
+                0x000044ac       0x14 ./driverlib/interrupt.o
+ .rodata.g_ppui32TimerIntMap
+                0x000044c0       0x60 ./driverlib/timer.o
+ .rodata.g_ui8TimerIntMapRows
+                0x00004520        0x4 ./driverlib/timer.o
+ .rodata.g_ppui32TimerIntMapSnowflake
+                0x00004524       0x40 ./driverlib/timer.o
+ .rodata.g_ui8TimerIntMapRowsSnowflake
+                0x00004564        0x4 ./driverlib/timer.o
+ .rodata.g_ppui32UARTIntMap
+                0x00004568       0x40 ./driverlib/uart.o
+ .rodata.g_ui8UARTIntMapRows
+                0x000045a8        0x4 ./driverlib/uart.o
+ .rodata.g_ppui32UARTIntMapSnowflake
+                0x000045ac       0x40 ./driverlib/uart.o
+ .rodata.g_ui8UARTIntMapRowsSnowflake
+                0x000045ec        0x4 ./driverlib/uart.o
+ .rodata.str1.4
+                0x000045f0        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x000045f4        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+                0x000045f4                _global_impure_ptr
+
+.eh_frame       0x000045f8        0x4
+ .eh_frame      0x000045f8        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+ .eh_frame      0x000045f8        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
+
+.data           0x20000000      0x45c load address 0x000045fc
+                0x000045fc                __data_load__ = LOADADDR (.data)
+                0x20000000                __data_start__ = .
+ *(.data)
+ .data          0x20000000        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+ .data          0x20000000        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+                0x20000000                __dso_handle
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .data          0x20000004        0x0 ./main.o
+ .data          0x20000004        0x0 ./tm4c1294ncpdt_startup_ccs_gcc.o
+ .data          0x20000004        0x0 ./utils/queue.o
+ .data          0x20000004        0x0 ./utils/util.o
+ .data          0x20000004        0x0 ./rtu/mbRTU.o
+ .data          0x20000004        0x0 ./rtu/mbcrc.o
+ .data          0x20000004        0x0 ./port/portIO.o
+ .data          0x20000004        0x0 ./port/portTimer.o
+ .data          0x20000004        0x0 ./port/portUART.o
+ .data          0x20000004        0x0 ./fsm_mestre/fsm_mestre.o
+ .data          0x20000004        0x0 ./driverlib/cpu.o
+ .data          0x20000004        0x0 ./driverlib/gpio.o
+ .data          0x20000004        0x0 ./driverlib/interrupt.o
+ .data          0x20000004        0x0 ./driverlib/timer.o
+ .data          0x20000004        0x0 ./driverlib/uart.o
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-exit.o)
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-init.o)
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__call_atexit.o)
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-atexit.o)
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-fini.o)
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__atexit.o)
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+ *(.data*)
+ .data.refA     0x20000004        0x4 ./main.o
+                0x20000004                refA
+ .data.refB     0x20000008        0xc ./main.o
+                0x20000008                refB
+ .data.refC     0x20000014        0xc ./main.o
+                0x20000014                refC
+ .data.refD     0x20000020        0x4 ./main.o
+                0x20000020                refD
+ .data.size     0x20000024        0x2 ./main.o
+                0x20000024                size
+ *fill*         0x20000026        0x2 
+ .data.generate_event
+                0x20000028        0x4 ./main.o
+                0x20000028                generate_event
+ *fill*         0x2000002c        0x4 
+ .data.impure_data
+                0x20000030      0x428 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x20000458        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+                0x20000458                _impure_ptr
+                0x2000045c                . = ALIGN (0x4)
+                0x2000045c                __data_end__ = .
+
+.jcr            0x2000045c        0x4 load address 0x00004a58
+ .jcr           0x2000045c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+ .jcr           0x2000045c        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
+
+.igot.plt       0x20000460        0x0 load address 0x00004a5c
+ .igot.plt      0x00000000        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+
+vtable          0x20000800      0x400 load address 0x00004a5c
+                0x20000800                PROVIDE (__start_vtable, .)
+ vtable         0x20000800      0x400 ./driverlib/interrupt.o
+                0x20000c00                PROVIDE (__stop_vtable, .)
+
+.ARM.exidx      0x00004e5c        0x8
+                0x00004e5c                __exidx_start = .
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x00004e5c        0x8 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+                0x00004e64                __exidx_end = .
+
+.ARM.extab      0x00004e64        0x0
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab     0x00004e64        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+
+.rel.dyn        0x00004e64        0x0
+ .rel.iplt      0x00000000        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+
+.bss            0x20000c00      0x2f4
+                0x20000c00                __bss_start__ = .
+ *(.shbss)
+ *(.bss)
+ .bss           0x20000c00        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+ .bss           0x20000c00       0x1c c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+ .bss           0x20000c1c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .bss           0x20000c1c        0x0 ./main.o
+ .bss           0x20000c1c        0x0 ./tm4c1294ncpdt_startup_ccs_gcc.o
+ .bss           0x20000c1c        0x0 ./utils/queue.o
+ .bss           0x20000c1c        0x0 ./utils/util.o
+ .bss           0x20000c1c        0x0 ./rtu/mbRTU.o
+ .bss           0x20000c1c        0x0 ./rtu/mbcrc.o
+ .bss           0x20000c1c        0x0 ./port/portIO.o
+ .bss           0x20000c1c        0x0 ./port/portTimer.o
+ .bss           0x20000c1c        0x0 ./port/portUART.o
+ .bss           0x20000c1c        0x0 ./fsm_mestre/fsm_mestre.o
+ .bss           0x20000c1c        0x0 ./driverlib/cpu.o
+ .bss           0x20000c1c        0x0 ./driverlib/gpio.o
+ .bss           0x20000c1c        0x0 ./driverlib/interrupt.o
+ .bss           0x20000c1c        0x0 ./driverlib/timer.o
+ .bss           0x20000c1c        0x0 ./driverlib/uart.o
+ .bss           0x20000c1c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-exit.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-init.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__call_atexit.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-atexit.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-fini.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__atexit.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+ .bss           0x20000c1c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
+ .bss           0x20000c1c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+ *(.bss.*)
+ .bss.countBuffer
+                0x20000c1c        0x2 ./main.o
+                0x20000c1c                countBuffer
+ .bss.n_buffer  0x20000c1e        0x1 ./main.o
+                0x20000c1e                n_buffer
+ *fill*         0x20000c1f        0x1 
+ .bss.pui32Stack
+                0x20000c20      0x200 ./tm4c1294ncpdt_startup_ccs_gcc.o
+ .bss.frame     0x20000e20        0xc ./fsm_mestre/fsm_mestre.o
+ *(COMMON)
+ COMMON         0x20000e2c       0xb0 ./main.o
+                0x20000e2c                occur_event
+                0x20000e30                rtuBuffer
+                0x20000e48                filamestre
+                0x20000e88                buffer
+                0x20000ed8                g_ui32SysClock
+ COMMON         0x20000edc        0x4 ./port/portIO.o
+                0x20000edc                flag
+ COMMON         0x20000ee0        0x5 ./port/portTimer.o
+                0x20000ee0                g_ui32Flags
+                0x20000ee4                flagTimer
+ *fill*         0x20000ee5        0x3 
+ COMMON         0x20000ee8        0xc ./fsm_mestre/fsm_mestre.o
+                0x20000ee8                length_replay
+                0x20000eec                fila
+                0x20000ef0                mb_PDU
+                0x20000ef4                . = ALIGN (0x4)
+                0x20000ef4                __bss_end__ = .
+
+.heap           0x20000ef4        0x0
+                0x20000ef4                __heap_start__ = .
+                0x20001ef4                end = (__heap_start__ + 0x1000)
+                0x20001ef4                _end = end
+                0x20001ef4                __end = end
+ *(.heap)
+                0x20000ef4                __heap_end__ = .
+                0x20000ef4                __HeapLimit = __heap_end__
+
+.stack          0x20000ef8        0x0
+                0x20001ef8                _stack = (. + 0x1000)
+                0x20000ef8                __stack = .
+ *(.stack)
+START GROUP
+LOAD c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a
+LOAD c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a
+LOAD c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a
+END GROUP
+START GROUP
+LOAD c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a
+LOAD c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a
+LOAD c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a
+END GROUP
+LOAD c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
+LOAD c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+OUTPUT(MBUS_Master_Tiva.out elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x30
+ .ARM.attributes
+                0x00000000       0x22 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+ .ARM.attributes
+                0x00000022       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+ .ARM.attributes
+                0x00000056       0x20 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .ARM.attributes
+                0x00000076       0x39 ./main.o
+ .ARM.attributes
+                0x000000af       0x39 ./tm4c1294ncpdt_startup_ccs_gcc.o
+ .ARM.attributes
+                0x000000e8       0x39 ./utils/queue.o
+ .ARM.attributes
+                0x00000121       0x39 ./utils/util.o
+ .ARM.attributes
+                0x0000015a       0x39 ./rtu/mbRTU.o
+ .ARM.attributes
+                0x00000193       0x39 ./rtu/mbcrc.o
+ .ARM.attributes
+                0x000001cc       0x39 ./port/portIO.o
+ .ARM.attributes
+                0x00000205       0x39 ./port/portTimer.o
+ .ARM.attributes
+                0x0000023e       0x39 ./port/portUART.o
+ .ARM.attributes
+                0x00000277       0x39 ./fsm_mestre/fsm_mestre.o
+ .ARM.attributes
+                0x000002b0       0x39 ./driverlib/cpu.o
+ .ARM.attributes
+                0x000002e9       0x39 ./driverlib/gpio.o
+ .ARM.attributes
+                0x00000322       0x39 ./driverlib/interrupt.o
+ .ARM.attributes
+                0x0000035b       0x39 ./driverlib/timer.o
+ .ARM.attributes
+                0x00000394       0x39 ./driverlib/uart.o
+ .ARM.attributes
+                0x000003cd       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000401       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000435       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000469       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000049d       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x000004d1       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x00000505       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x00000539       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x0000056d       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x000005a1       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
+ .ARM.attributes
+                0x000005d5       0x22 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./main.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./tm4c1294ncpdt_startup_ccs_gcc.o
+ .comment       0x00000000       0x71 ./utils/queue.o
+ .comment       0x00000000       0x71 ./utils/util.o
+ .comment       0x00000000       0x71 ./rtu/mbRTU.o
+ .comment       0x00000000       0x71 ./rtu/mbcrc.o
+ .comment       0x00000000       0x71 ./port/portIO.o
+ .comment       0x00000000       0x71 ./port/portTimer.o
+ .comment       0x00000000       0x71 ./port/portUART.o
+ .comment       0x00000000       0x71 ./fsm_mestre/fsm_mestre.o
+ .comment       0x00000000       0x71 ./driverlib/cpu.o
+ .comment       0x00000000       0x71 ./driverlib/gpio.o
+ .comment       0x00000000       0x71 ./driverlib/interrupt.o
+ .comment       0x00000000       0x71 ./driverlib/timer.o
+ .comment       0x00000000       0x71 ./driverlib/uart.o
+
+.debug_info     0x00000000     0x3bfc
+ .debug_info    0x00000000      0x3d5 ./main.o
+ .debug_info    0x000003d5      0x173 ./tm4c1294ncpdt_startup_ccs_gcc.o
+ .debug_info    0x00000548      0x1c6 ./utils/queue.o
+ .debug_info    0x0000070e       0xf9 ./utils/util.o
+ .debug_info    0x00000807      0x215 ./rtu/mbRTU.o
+ .debug_info    0x00000a1c      0x134 ./rtu/mbcrc.o
+ .debug_info    0x00000b50      0x1ad ./port/portIO.o
+ .debug_info    0x00000cfd      0x1bb ./port/portTimer.o
+ .debug_info    0x00000eb8      0x1b8 ./port/portUART.o
+ .debug_info    0x00001070      0x1eb ./fsm_mestre/fsm_mestre.o
+ .debug_info    0x0000125b      0x15f ./driverlib/cpu.o
+ .debug_info    0x000013ba      0xd67 ./driverlib/gpio.o
+ .debug_info    0x00002121      0x46e ./driverlib/interrupt.o
+ .debug_info    0x0000258f      0xb0b ./driverlib/timer.o
+ .debug_info    0x0000309a      0xb62 ./driverlib/uart.o
+
+.debug_abbrev   0x00000000      0xc65
+ .debug_abbrev  0x00000000       0xf3 ./main.o
+ .debug_abbrev  0x000000f3       0xbb ./tm4c1294ncpdt_startup_ccs_gcc.o
+ .debug_abbrev  0x000001ae       0xe2 ./utils/queue.o
+ .debug_abbrev  0x00000290       0xb7 ./utils/util.o
+ .debug_abbrev  0x00000347       0xab ./rtu/mbRTU.o
+ .debug_abbrev  0x000003f2       0x90 ./rtu/mbcrc.o
+ .debug_abbrev  0x00000482       0xc7 ./port/portIO.o
+ .debug_abbrev  0x00000549       0xac ./port/portTimer.o
+ .debug_abbrev  0x000005f5       0xd8 ./port/portUART.o
+ .debug_abbrev  0x000006cd       0xe1 ./fsm_mestre/fsm_mestre.o
+ .debug_abbrev  0x000007ae       0xc0 ./driverlib/cpu.o
+ .debug_abbrev  0x0000086e       0xe3 ./driverlib/gpio.o
+ .debug_abbrev  0x00000951       0xfe ./driverlib/interrupt.o
+ .debug_abbrev  0x00000a4f      0x103 ./driverlib/timer.o
+ .debug_abbrev  0x00000b52      0x113 ./driverlib/uart.o
+
+.debug_aranges  0x00000000      0x788
+ .debug_aranges
+                0x00000000       0x40 ./main.o
+ .debug_aranges
+                0x00000040       0x38 ./tm4c1294ncpdt_startup_ccs_gcc.o
+ .debug_aranges
+                0x00000078       0x30 ./utils/queue.o
+ .debug_aranges
+                0x000000a8       0x20 ./utils/util.o
+ .debug_aranges
+                0x000000c8       0x38 ./rtu/mbRTU.o
+ .debug_aranges
+                0x00000100       0x20 ./rtu/mbcrc.o
+ .debug_aranges
+                0x00000120       0x30 ./port/portIO.o
+ .debug_aranges
+                0x00000150       0x68 ./port/portTimer.o
+ .debug_aranges
+                0x000001b8       0x38 ./port/portUART.o
+ .debug_aranges
+                0x000001f0       0x28 ./fsm_mestre/fsm_mestre.o
+ .debug_aranges
+                0x00000218       0x48 ./driverlib/cpu.o
+ .debug_aranges
+                0x00000260      0x1a8 ./driverlib/gpio.o
+ .debug_aranges
+                0x00000408       0xa0 ./driverlib/interrupt.o
+ .debug_aranges
+                0x000004a8      0x150 ./driverlib/timer.o
+ .debug_aranges
+                0x000005f8      0x190 ./driverlib/uart.o
+
+.debug_ranges   0x00000000      0x698
+ .debug_ranges  0x00000000       0x30 ./main.o
+ .debug_ranges  0x00000030       0x28 ./tm4c1294ncpdt_startup_ccs_gcc.o
+ .debug_ranges  0x00000058       0x20 ./utils/queue.o
+ .debug_ranges  0x00000078       0x10 ./utils/util.o
+ .debug_ranges  0x00000088       0x28 ./rtu/mbRTU.o
+ .debug_ranges  0x000000b0       0x10 ./rtu/mbcrc.o
+ .debug_ranges  0x000000c0       0x20 ./port/portIO.o
+ .debug_ranges  0x000000e0       0x58 ./port/portTimer.o
+ .debug_ranges  0x00000138       0x28 ./port/portUART.o
+ .debug_ranges  0x00000160       0x18 ./fsm_mestre/fsm_mestre.o
+ .debug_ranges  0x00000178       0x38 ./driverlib/cpu.o
+ .debug_ranges  0x000001b0      0x198 ./driverlib/gpio.o
+ .debug_ranges  0x00000348       0x90 ./driverlib/interrupt.o
+ .debug_ranges  0x000003d8      0x140 ./driverlib/timer.o
+ .debug_ranges  0x00000518      0x180 ./driverlib/uart.o
+
+.debug_line     0x00000000     0x204f
+ .debug_line    0x00000000      0x249 ./main.o
+ .debug_line    0x00000249      0x154 ./tm4c1294ncpdt_startup_ccs_gcc.o
+ .debug_line    0x0000039d       0x81 ./utils/queue.o
+ .debug_line    0x0000041e       0x65 ./utils/util.o
+ .debug_line    0x00000483      0x132 ./rtu/mbRTU.o
+ .debug_line    0x000005b5       0x91 ./rtu/mbcrc.o
+ .debug_line    0x00000646      0x19b ./port/portIO.o
+ .debug_line    0x000007e1      0x1f5 ./port/portTimer.o
+ .debug_line    0x000009d6      0x176 ./port/portUART.o
+ .debug_line    0x00000b4c      0x155 ./fsm_mestre/fsm_mestre.o
+ .debug_line    0x00000ca1      0x172 ./driverlib/cpu.o
+ .debug_line    0x00000e13      0x618 ./driverlib/gpio.o
+ .debug_line    0x0000142b      0x293 ./driverlib/interrupt.o
+ .debug_line    0x000016be      0x496 ./driverlib/timer.o
+ .debug_line    0x00001b54      0x4fb ./driverlib/uart.o
+
+.debug_str      0x00000000     0x15f9
+ .debug_str     0x00000000      0x2be ./main.o
+                                0x320 (size before relaxing)
+ .debug_str     0x000002be       0x90 ./tm4c1294ncpdt_startup_ccs_gcc.o
+                                0x260 (size before relaxing)
+ .debug_str     0x0000034e       0x51 ./utils/queue.o
+                                0x24d (size before relaxing)
+ .debug_str     0x0000039f       0x26 ./utils/util.o
+                                0x1a1 (size before relaxing)
+ .debug_str     0x000003c5       0xa9 ./rtu/mbRTU.o
+                                0x2b8 (size before relaxing)
+ .debug_str     0x0000046e       0x41 ./rtu/mbcrc.o
+                                0x20d (size before relaxing)
+ .debug_str     0x000004af       0x3d ./port/portIO.o
+                                0x24b (size before relaxing)
+ .debug_str     0x000004ec      0x113 ./port/portTimer.o
+                                0x2e9 (size before relaxing)
+ .debug_str     0x000005ff       0x7c ./port/portUART.o
+                                0x28a (size before relaxing)
+ .debug_str     0x0000067b       0x50 ./fsm_mestre/fsm_mestre.o
+                                0x27c (size before relaxing)
+ .debug_str     0x000006cb       0x6a ./driverlib/cpu.o
+                                0x21f (size before relaxing)
+ .debug_str     0x00000735      0x51a ./driverlib/gpio.o
+                                0x714 (size before relaxing)
+ .debug_str     0x00000c4f      0x1b7 ./driverlib/interrupt.o
+                                0x3de (size before relaxing)
+ .debug_str     0x00000e06      0x3ca ./driverlib/timer.o
+                                0x5dd (size before relaxing)
+ .debug_str     0x000011d0      0x429 ./driverlib/uart.o
+                                0x6be (size before relaxing)
+
+.debug_frame    0x00000000     0x1834
+ .debug_frame   0x00000000       0xa0 ./main.o
+ .debug_frame   0x000000a0       0x78 ./tm4c1294ncpdt_startup_ccs_gcc.o
+ .debug_frame   0x00000118       0x68 ./utils/queue.o
+ .debug_frame   0x00000180       0x2c ./utils/util.o
+ .debug_frame   0x000001ac       0x84 ./rtu/mbRTU.o
+ .debug_frame   0x00000230       0x2c ./rtu/mbcrc.o
+ .debug_frame   0x0000025c       0x68 ./port/portIO.o
+ .debug_frame   0x000002c4      0x12c ./port/portTimer.o
+ .debug_frame   0x000003f0       0x90 ./port/portUART.o
+ .debug_frame   0x00000480       0x4c ./fsm_mestre/fsm_mestre.o
+ .debug_frame   0x000004cc       0x70 ./driverlib/cpu.o
+ .debug_frame   0x0000053c      0x604 ./driverlib/gpio.o
+ .debug_frame   0x00000b40      0x1ec ./driverlib/interrupt.o
+ .debug_frame   0x00000d2c      0x464 ./driverlib/timer.o
+ .debug_frame   0x00001190      0x540 ./driverlib/uart.o
+ .debug_frame   0x000016d0       0x28 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-exit.o)
+ .debug_frame   0x000016f8       0x2c c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-init.o)
+ .debug_frame   0x00001724       0x2c c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+ .debug_frame   0x00001750       0x48 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00001798       0x20 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-atexit.o)
+ .debug_frame   0x000017b8       0x2c c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-fini.o)
+ .debug_frame   0x000017e4       0x30 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__atexit.o)
+ .debug_frame   0x00001814       0x20 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_8-2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
